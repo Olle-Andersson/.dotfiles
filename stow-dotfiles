@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec stow -t ~/.config/ --ignore=$(basename "$0") --verbose $@ ./
