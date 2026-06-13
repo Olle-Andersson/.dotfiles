@@ -39,6 +39,8 @@ output * bg ~/Downloads/bg.webp fill
    }
 
 mouse_warping container
+
+seat * xcursor_theme Bibata-Modern-Classic 20
 # Read `man 5 sway-input` for more information about this section.
 
 ### Key bindings
