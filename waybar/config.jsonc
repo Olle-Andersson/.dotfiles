@@ -19,7 +19,7 @@
     "modules-right": [
         "mpd",
         "idle_inhibitor",
-        "pulseaudio",
+        "wireplumber",
         "network",
         "power-profiles-daemon",
         "sway/language",
