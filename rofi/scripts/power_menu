@@ -1,0 +1,14 @@
+#! /usr/bin/env bash
+
+
+if [[ "$@" == "suspend" ]]; then
+    exec systemctl suspend
+elif [[ "$@" == "reboot" ]]; then
+    exec systemctl reboot
+elif [[ "$@" == "shutdown" ]]; then
+    exec systemctl poweroff
+elif [[ "$@" == "Lock" ]]; then
+    exec gtklock
+fi
+
+echo -e "Lock\nsuspend\nreboot\nshutdown"

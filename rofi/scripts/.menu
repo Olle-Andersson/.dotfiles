@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+
+choice=$(ls ~/.config/rofi/scripts/  | rofi -dmenu)
+
+if [ -z "$choice"  ]; then
+    exit 0
+else
+    rofi -show $choice
+fi
